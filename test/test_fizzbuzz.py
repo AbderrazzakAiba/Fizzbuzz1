@@ -10,15 +10,14 @@ from src.FizzBuzz import fizzbuzz
         (30, "fizzbuzz"),
         (3, "fizz"),
         (6, "fizz"),
+        (5, "buzz"),
+        (10, "buzz"),
 
     ]
 )
 def test_numbers_return_expected(nombre, expected_result):
     actual_result = fizzbuzz(nombre)
     assert actual_result == expected_result
-def test_5_is_buzz():
-    assert fizzbuzz(5)=="buzz"
-def test_10_is_buzz():
-    assert fizzbuzz(10)=="buzz"
+
 
 
