@@ -5,7 +5,5 @@ def fizzbuzz(nombre):
         return "fizz"
     if nombre %5==0:
         return "buzz"
-    if (nombre %3 !=0) and (nombre %5!=0) :
-        return nombre
-    return "fizzbuzz"
+    return nombre
 
