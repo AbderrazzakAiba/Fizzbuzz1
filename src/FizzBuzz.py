@@ -1,2 +1,2 @@
 def fizzbuzz():
-    pass
+    return 0
