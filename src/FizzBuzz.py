@@ -1,2 +1,2 @@
 def fizzbuzz():
-    return 0
+    return "fizzbuzz"

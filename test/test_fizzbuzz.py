@@ -2,5 +2,5 @@ from src.FizzBuzz import fizzbuzz
 
 
 
-def test_function_is_return_0():
-    assert fizzbuzz()==0
+def test_0_is_fizzbuzz():
+    assert fizzbuzz()=="fizzbuzz"
